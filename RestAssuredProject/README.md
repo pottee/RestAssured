@@ -39,13 +39,14 @@ Post request, create for id -> Put request in according id and update for addres
 
 5. Configure Rest Assured into project
 
-     3.1 Add <dependencies></dependencies> in pom.xml 
+     3.1 Add < dependencies > < /dependencies >  in pom.xml 
 
 
-     3.2 Go to mvnrepository.com, search for Dependency (or add Jar) and copy the block of code to pom.xml e.g.
+     3.2 Go to mvnrepository.com, search for Dependency (or add Jar) and copy the block of code under 3.1 e.g.
    
        - Rest assured
        - TestNG    // test runner, annotation
        - Hamcrest  // matcher framework
  
+
 
