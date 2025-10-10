@@ -7,6 +7,7 @@ Post request, create for id -> Put request in according id and update for addres
 1. Install Java and set variables
 
    1.1  https://www.oracle.com/java/technologies/downloads , download and install.
+   
    1.2  use the command to check path of Java
 
         $ /usr/libexec/java_home -V
@@ -27,7 +28,7 @@ Post request, create for id -> Put request in according id and update for addres
         $  echo $JAVA_HOME
         $  java -version
 
-2.   Install eclipse
+3.   Install eclipse
   
      2.1  https://www.eclipse.org/downloads/packages/, download and install.
 
