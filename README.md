@@ -55,7 +55,7 @@ Run the tests:
 
 at each file,
 - src > (default package) > basic.java -> Run As -> "Java Application"
-- src > files > DynamicJson.java -> Run As -> "TestNG Test"  // need to install TestNG Test first via Help > "Eclipse Marketplace..." , and ensure enabled=true
+- src > files > DynamicJson.java -> Run As -> "TestNG Test" (ensure enabled=true at @Test) // need to install TestNG Test first via Help > "Eclipse Marketplace...".
 - src > files > ReadFromJsonFile.java -> Run As -> "TestNG Test" 
 
 create testng-suite.xml,
