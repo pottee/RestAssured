@@ -63,4 +63,4 @@ B. create testng-suite.xml at root project level,
 - Select "Run As" > "TestNG Suite".
 
 C. run from cmd line via Maven,
-- go to project directory, and run "mvn clean test".  // need to install maven and setup environment path first.
+- go to project directory, and run "mvn clean test".  // need to install maven and setup environment path first. also here project has suite .xml file outside default setting to run it needs specific configuration for test suite xml which declared under plugin 'manven-surefire-plugin' in pom.xml. Otherwise, or in default 'mvn clean test' can run for test with its default settings.
