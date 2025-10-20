@@ -51,4 +51,13 @@ Post request, create for id -> Put request in according id and update for addres
  
 
 
+Run the tests: 
 
+at each file,
+- src > (default package) > basic.java -> Run As -> "Java Application"
+- src > files > DynamicJson.java -> Run As -> "TestNG Test"  // need to install TestNG Test first via Help > "Eclipse Marketplace..." , and ensure enabled=true
+- src > files > ReadFromJsonFile.java -> Run As -> "TestNG Test" 
+
+create testng-suite.xml,
+- Right-click on the testng-suite.xml file.
+- Select "Run As" > "TestNG Suite".
