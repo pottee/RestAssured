@@ -51,7 +51,7 @@ Post request, create for id -> Put request in according id and update for addres
  
 
 
-Run the tests: 
+**Run the tests:** 
 
 A. at each file,
 - src > (default package) > basic.java -> Run As -> "Java Application".
@@ -59,9 +59,9 @@ A. at each file,
 - src > files > ReadFromJsonFile.java -> Run As -> "TestNG Test".
 
 B. create testng-suite.xml at root project level,
-- Right-click on the testng-suite.xml file, add <class> name.
+- Right-click on the testng-suite.xml file, also add <class> name.
 - Select "Run As" > "TestNG Suite".
 
 C. run from cmd line via Maven,
-- add "maven surefire" plugin in pom.xml, specific testng xml file in <suiteXmlFile>
+- add "maven surefire" plugin in pom.xml, specific testng xml file in <suiteXmlFile>.
 - go to project directory, and run "mvn clean test".  // need to install maven and setup environment path first.
