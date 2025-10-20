@@ -53,15 +53,15 @@ Post request, create for id -> Put request in according id and update for addres
 
 Run the tests: 
 
-at each file,
+A. at each file,
 - src > (default package) > basic.java -> Run As -> "Java Application".
 - src > files > DynamicJson.java -> Run As -> "TestNG Test" (ensure enabled=true at @Test) // need to install TestNG Test first via Help > "Eclipse Marketplace...".
 - src > files > ReadFromJsonFile.java -> Run As -> "TestNG Test".
 
-create testng-suite.xml at root project level
+B. create testng-suite.xml at root project level,
 - Right-click on the testng-suite.xml file, add <class> name.
 - Select "Run As" > "TestNG Suite".
 
-run from cmd line via Maven,
+C. run from cmd line via Maven,
 - add "maven surefire" plugin in pom.xml, specific testng xml file in <suiteXmlFile>
 - go to project directory, and run "mvn clean test".  // need to install maven and setup environment path first.
