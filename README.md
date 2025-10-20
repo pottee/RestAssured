@@ -63,5 +63,4 @@ B. create testng-suite.xml at root project level,
 - Select "Run As" > "TestNG Suite".
 
 C. run from cmd line via Maven,
-- add "maven surefire" plugin in pom.xml, specific testng xml file in <suiteXmlFile>.
 - go to project directory, and run "mvn clean test".  // need to install maven and setup environment path first.
